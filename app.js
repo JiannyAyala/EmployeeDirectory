@@ -1,3 +1,7 @@
+import express from "express";
+const app = express();
+export default app;
+
 app.route("/").get((req, res) => {
   res.send("Hello Employees :)");
 });
